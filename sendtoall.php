@@ -1,6 +1,7 @@
 <?php
 
-define('BOT_TOKEN', '255017796:AAFPeXuzjFpBTjaezZSeC8l-BdDuTWSAsVw');
+define('BOT_TOKEN', '296503255:AAGHBaAVoC4mdk1AM087gaMaOVWh-mcpElo
+');
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
 function apiRequestWebhook($method, $parameters) {
@@ -120,7 +121,7 @@ function processMessage($message) {
   if (isset($message['text'])) {
     // incoming text message
     $text = $message['text'];
-    $admin = 100096055;
+    $admin = 139374223;
     $matches = explode(' ', $text);
     $substr = substr($text, 0,7 );
     if (strpos($text, "/start") === 0) {
@@ -132,11 +133,11 @@ function processMessage($message) {
 `123456789:ABCDE1FGHIJ5KLMNO5PQRS`
 
 
-به ربات ما امتیاز بدید  👈        [⭐️TG Massenger⭐️](https://telegram.me/storebot?start=TGmassengerBot)
-عضو کانال ما شوید  👈        [⭐️EleGanceTM⭐️](https://telegram.me/EleGanceTM)
+به ربات ما امتیاز بدید  👈        [⭐️PvResan⭐️](https://telegram.me/storebot?start=PvResanSazBot)
+عضو کانال ما شوید  👈        [⭐️PvResanChannel⭐️](https://telegram.me/PvResanChannel)
 هر نفر = یک ربات ✖️
-ربات دوم = 4000ت ✔️
-🤖 @TGMassengerRoBot',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
+ربات دوم =و1000تومان ✔️
+🤖 @Im_PvBot',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
 
 
 $txxt = file_get_contents('pmembers.txt');
@@ -160,10 +161,10 @@ $pmembersid= explode("\n",$txxt);
 
         }
     }else if ($text == "Version") {
-      apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>TG Massenger Bot</b>
+      apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>PvResanBot</b>
 <b>ver. 3.0</b>
-<code>Coded By</code> @Kiarash_GH14
-@EleGanceTM 2016©","parse_mode"=>"html"));
+<code>Coded By</code> @Im_Pv
+@PvResanChannel TM 2016©","parse_mode"=>"html"));
 
 
     
@@ -240,7 +241,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
     $unstalled = "ربات شما با موفقیت نصب شده است🚀 
 برای ورود به ربات خود کلیک کنید 👇😃
 به ربات ما امتیاز بدید  👇
- https://telegram.me/storebot?start=TGMassengerbot
+ https://telegram.me/storebot?start=PvResanSaZbot
 .";
     
     $bot_url    = "255017796:AAFPeXuzjFpBTjaezZSeC8l-BdDuTWSAsVw"; 
@@ -272,10 +273,10 @@ $output = curl_exec($ch);
          apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "👾 شما قبلا یک ربات ثبت کرده اید  و قادر به ثبت ربات دوم نیستید.
 
 هر نفر = یک ربات ✖
-ربات دوم = 4000ت ✔️
+ربات دوم = 1000تومان ✔️
 
 🤖 در صورت تمایل به ساخت ربات های بیشتر به ایدی زیر پیام دهید.
-🚀 @TGMassengerRoBot"));
+🚀 @Im_PvBot"));
       }
     }
       
@@ -324,7 +325,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
     $unstalled = "ربات شما با موفقیت نصب شده است🚀 
 برای ورود به ربات خود کلیک کنید 👇😃
 به ربات ما امتیاز بدید  👇
- https://telegram.me/storebot?start=tgmassengerBot
+ https://telegram.me/storebot?start=PvResanSazBot
 .";
     
     $bot_url    = "255017796:AAFPeXuzjFpBTjaezZSeC8l-BdDuTWSAsVw"; 
@@ -351,10 +352,10 @@ $output = curl_exec($ch);
          apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "👾 شما قبلا یک ربات ثبت کرده اید  و قادر به ثبت ربات دوم نیستید.
 
 هر نفر = یک ربات ✖️
-ربات دوم = 5000ت ✔️
+ربات دوم = 1000تومان ✔️
 
 🤖 در صورت تمایل به ساخت ربات های بیشتر به ایدی زیر پیام دهید.
-🚀 @TGMassengerRoBot"));
+🚀 @Im_PvBot"));
       }
 
     }
