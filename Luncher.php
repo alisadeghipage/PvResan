@@ -133,7 +133,7 @@ function processMessage($message) {
 
 
 به ربات ما امتیاز بدید  👈        [⭐️Payam Resan⭐️](https://telegram.me/storebot?start=PayamResanSazBot)
-عضو کانال ما شوید  👈        [⭐️PayamResan⭐️](https://telegram.me/PayamResanChannel)
+عضو کانال ما شوید  👈        [⭐️PayamResan Channel⭐️](https://telegram.me/PayamResanChannel)
 
 هر نفر = یک ربات ✖️
 ربات دوم = 1000تومان ✔️
